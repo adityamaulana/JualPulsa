@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/NotelTextView"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="@color/TwitterBlue"
+        android:fontFamily="@font/romansd"
+
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/InputTextNOTEL"
+        android:textColor="@color/white"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+
+        />
+
+    <EditText
+        android:id="@+id/EditTextPhone2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/romansd"
+        android:gravity="center"
+        android:hint="0812 **** ****"
+
+        android:inputType="phone"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572"
+
+        />
+
+    <Button
+        android:id="@+id/TombolSignIn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/TwitterBlue"
+
+        android:fontFamily="@font/dailyhorus"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+
+        android:paddingRight="30dp"
+        android:text="@string/Masuk"
+        android:textSize="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/EasyPulsaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:rotation="-10"
+        android:text="@string/EasyPulsa"
+        android:textColor="@color/TwitterBlue"
+        android:textSize="100dp"
+        android:fontFamily="@font/dailyhorus"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+
+        />
+
+    <TextView
+        android:id="@+id/DeskripsiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Desc"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/carnevaleefreakshow"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

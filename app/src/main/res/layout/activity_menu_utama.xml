@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".MenuUtama">
+
+    <TextView
+        android:id="@+id/EasyPulsaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/dailyhorus"
+        android:rotation="-10"
+        android:text="@string/EasyPulsa"
+        android:textColor="@color/TwitterBlue"
+        android:textSize="100dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.055"
+
+        />
+
+    <TextView
+        android:id="@+id/DeskripsiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/carnevaleefreakshow"
+        android:text="@string/Desc"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+
+        />
+
+    <ImageView
+        android:id="@+id/GambarPulsa"
+        android:layout_width="459dp"
+        android:layout_height="141dp"
+
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        app:srcCompat="@drawable/pulsa"
+
+        />
+
+    <Button
+        android:id="@+id/TombolBeliPulsa"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+
+        android:fontFamily="@font/romansd"
+        android:text="Pulsa Seluler"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748"
+
+        />
+
+    <TextView
+        android:id="@+id/NomorAndaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Anda"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/NomorYangTercantumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Anda"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

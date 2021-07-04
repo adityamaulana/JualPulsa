@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">EASYPULSA | EASYMONEY </string>
+
+    <string name="Masuk"> SIGN IN </string>
+
+    <string name="Daftar"> SIGN UP </string>
+
+    <string name="EasyPulsa"> EasyPulsa </string>
+
+    <string name="Desc"> SUPER FAST AND SUPER EASY </string>
+
+    <string name="InputTextNOTEL"> Masukkan Nomor Telepon Anda </string>
+
+    <string name="InputTextNAMA"> Masukkan Nama Anda </string>
+
+    <string name="AdaAkun"> Already Have Account!!! </string>
+
+</resources>

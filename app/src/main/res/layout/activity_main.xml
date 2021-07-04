@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/TombolSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1DA1F2"
+        android:shadowColor="@color/black"
+        android:text="@string/Daftar"
+
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dailyhorus"
+
+        android:paddingTop="10dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <Button
+        android:id="@+id/TombolSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+
+        android:text="@string/Masuk"
+        android:textColor="#1DA1F2"
+        android:fontFamily="@font/dailyhorus"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <TextView
+        android:id="@+id/EasyPulsaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:rotation="-10"
+        android:text="@string/EasyPulsa"
+        android:textColor="@color/TwitterBlue"
+        android:textSize="100dp"
+        android:fontFamily="@font/dailyhorus"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+
+        />
+
+    <TextView
+        android:id="@+id/DeskripsiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Desc"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/carnevaleefreakshow"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+
+        />
+
+    <ImageView
+        android:id="@+id/ThunderImage1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:rotation="50"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        app:srcCompat="@drawable/thunder"
+
+        />
+
+    <ImageView
+        android:id="@+id/ThunderImage2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:rotation="-60"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        app:srcCompat="@drawable/thunder"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

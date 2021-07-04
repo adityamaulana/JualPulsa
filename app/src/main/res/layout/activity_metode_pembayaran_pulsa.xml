@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".MetodePembayaranPulsa">
+
+
+    <TextView
+        android:id="@+id/MetodePembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+
+        android:fontFamily="@font/romansd"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136"
+
+
+        />
+
+    <Button
+        android:id="@+id/TombolPaymentBRI"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+
+        android:fontFamily="@font/romansd"
+        android:gravity="start"
+        android:text="BRI"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Button
+        android:id="@+id/TombolPaymentBNI"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+
+        android:fontFamily="@font/romansd"
+        android:gravity="start"
+        android:text="BNI"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/TombolPaymentBCA"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+
+        android:fontFamily="@font/romansd"
+        android:gravity="start"
+        android:text="BCA"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:id="@+id/TombolPaymentMandiri"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+
+        android:fontFamily="@font/romansd"
+        android:gravity="start"
+        android:text="Mandiri"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <TextView
+        android:id="@+id/ViaATMTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATM TRANSFER"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

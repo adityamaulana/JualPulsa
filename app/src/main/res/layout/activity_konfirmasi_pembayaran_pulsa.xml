@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".KonfirmasiPembayaranPulsa">
+
+    <TextView
+        android:id="@+id/KonfirmasiPembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/romansd"
+        android:gravity="center"
+        android:text="Konfirmasi Pembayaran"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+
+        />
+
+    <TextView
+        android:id="@+id/DetailPembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Detail Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+
+        />
+
+    <TextView
+        android:id="@+id/TotalPembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Total Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+
+        />
+
+    <TextView
+        android:id="@+id/MetodePembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Metode Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+
+        />
+
+    <TextView
+        android:id="@+id/NoteKodePembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="(Gunakan kode ini untuk melakukan pembayaran)"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579"
+
+        />
+
+    <TextView
+        android:id="@+id/KodeePembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kode Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+
+        />
+
+    <TextView
+        android:id="@+id/NominalPembayaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Nominal Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444"
+
+        />
+
+    <TextView
+        android:id="@+id/MetodeYangDipakaiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Metode Yang Dipakai"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+
+        />
+
+
+    <TextView
+        android:id="@+id/KodeYangMunculTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="80008XXXXXXXXX"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554"
+
+        />
+
+    <Button
+        android:id="@+id/TombolKonfirmasiPembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/TwitterBlue"
+
+        android:fontFamily="@font/dailyhorus"
+        android:text="CONFIRM"
+        android:textSize="30dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
